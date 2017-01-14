@@ -20,10 +20,10 @@ module.exports = function(grunt) {
         cwd: '/web'
       },
       js: {
-        files: [ '*.js', '*.css' ]
+        files: [ '**/*.js', '**/*.css' ]
       },
       html: {
-        files: [ '*.html']
+        files: [ '**/*.html']
       }
     }
 
